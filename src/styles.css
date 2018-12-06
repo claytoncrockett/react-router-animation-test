@@ -1,3 +1,11 @@
+.backgroundone {
+  background-color: greenyellow;
+}
+
+.backgroundtwo {
+  background-color: blueviolet;
+}
+
 .App {
   font-family: sans-serif;
   text-align: center;
@@ -7,14 +15,6 @@
   display: none;
   height: 0px;
   width: 0px;
-}
-.container {
-  width: 200px;
-  height: 100px;
-  margin: 100px auto;
-  border: 5px solid gold;
-  border-radius: 5px;
-  overflow: hidden;
 }
 
 .link {
@@ -33,20 +33,4 @@
 }
 .link.white {
   background: white;
-}
-
-.animatable div {
-  height: 100px;
-}
-
-.animate-option {
-  font-size: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.animate-option input {
-  width: 24px;
-  height: 24px;
-  margin-right: 8px;
 }
