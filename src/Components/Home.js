@@ -6,9 +6,8 @@ class Home extends React.Component {
   render() {
     return (
       <div class="backgroundone">
-        <p>hello</p>
         <Link to="/page">
-          <h1>Click me for animation</h1>
+          <button class="pageswap">CLICK ME</button>
         </Link>
       </div>
     );

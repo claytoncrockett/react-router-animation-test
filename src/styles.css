@@ -1,9 +1,37 @@
 .backgroundone {
   background-color: greenyellow;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .backgroundtwo {
   background-color: blueviolet;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pageswap {
+  background-color: rgba(255, 255, 255, 0);
+  border: solid #ff4200;
+  color: #ff4200;
+  padding-top: 12%;
+  padding-bottom: 12%;
+  width: 13vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.pageswap:hover {
+  color: white;
+  background-color: #ff4200;
 }
 
 .App {

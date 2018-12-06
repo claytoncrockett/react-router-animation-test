@@ -5,9 +5,8 @@ class Page extends React.Component {
   render() {
     return (
       <div class="backgroundtwo">
-        <h1>TEST</h1>
         <Link to="/">
-          <h1>Click me again for another animation</h1>
+          <button class="pageswap">CLICK ME</button>
         </Link>
       </div>
     );
