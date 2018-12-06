@@ -3,6 +3,11 @@
   text-align: center;
 }
 
+::-webkit-scrollbar {
+  display: none;
+  height: 0px;
+  width: 0px;
+}
 .container {
   width: 200px;
   height: 100px;

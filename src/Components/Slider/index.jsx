@@ -30,9 +30,9 @@ export default class Slider extends React.Component {
     }
   }
 
-  componentWillReceiveProps(newProps) {
-    if (newProps.position !== this.props.position) {
-      this.startAnimation(newProps.position, newProps.animationCallback);
+  componentDidUpdate(prevProps) {
+    if (this.props.position !== prevProps.position) {
+      this.startAnimation(this.props.position, this.props.animationCallback);
     }
   }
 
