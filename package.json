@@ -1,7 +1,7 @@
 {
   "name": "react-router-animation",
   "version": "1.0.0",
-  "description": "",
+  "description": "simple example of enter-exit animation using react-router",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
